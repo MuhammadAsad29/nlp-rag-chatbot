@@ -1,3 +1,14 @@
+---
+title: NLP RAG Chatbot
+emoji: 🤖
+colorFrom: indigo
+colorTo: purple
+sdk: gradio
+sdk_version: 6.0.0
+app_file: app.py
+pinned: false
+---
+
 # 🤖 NLP & RAG Intelligent Assistant
 
 An end-to-end, production-grade **Retrieval-Augmented Generation (RAG)** chatbot web application built with **Google Gemini API**, **Sentence Transformers**, **FAISS Vector Database**, and **Gradio**.
