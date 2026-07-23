@@ -1,0 +1,1199 @@
+Q1: What problem does Natural Language Processing solve?
+A1: NLP enables machines to process and understand human language instead of structured data only.
+
+Q2: Why is human language difficult for machines to understand?
+A2: Human language is ambiguous, context-dependent, and constantly evolving.
+
+Q3: What is the difference between NLP and text mining?
+A3: NLP focuses on language understanding, while text mining focuses on pattern discovery.
+
+Q4: What is corpus in NLP?
+A4: A corpus is a large collection of text used for language analysis.
+
+Q5: Why is preprocessing important in NLP?
+A5: Preprocessing removes noise and improves model accuracy.
+
+Q6: What does lowercasing achieve in text preprocessing?
+A6: It reduces vocabulary size by normalizing text.
+
+Q7: Why is punctuation removal sometimes harmful?
+A7: Punctuation can convey meaning such as emotion or sentence boundaries.
+
+Q8: What is whitespace tokenization?
+A8: It splits text based on spaces.
+
+Q9: What is subword tokenization?
+A9: It breaks words into smaller meaningful units.
+
+Q10: Why are emojis challenging for NLP systems?
+A10: Emojis convey emotion and context not captured by words.
+
+Q11: What is vocabulary size?
+A11: Vocabulary size is the number of unique tokens in a dataset.
+
+Q12: Why do NLP models limit vocabulary?
+A12: To reduce memory usage and computation cost.
+
+Q13: What is an out-of-vocabulary word?
+A13: A word not seen during training.
+
+Q14: How does Byte Pair Encoding help NLP?
+A14: It handles rare and unseen words effectively.
+
+Q15: What is noise in textual data?
+A15: Noise includes irrelevant symbols, typos, or formatting errors.
+
+Q16: What is text denoising?
+A16: Text denoising removes unwanted elements from text.
+
+Q17: What is a bag-of-words model?
+A17: It represents text using word frequency without order.
+
+Q18: What information is lost in bag-of-words?
+A18: Word order and contextual meaning.
+
+Q19: What is sparsity in NLP features?
+A19: When most feature values are zero.
+
+Q20: Why is sparsity a problem?
+A20: It increases memory usage and reduces model efficiency.
+
+Q21: What is a dense representation?
+A21: A compact vector containing meaningful values.
+
+Q22: Why are embeddings preferred over one-hot vectors?
+A22: They capture semantic relationships.
+
+Q23: What does semantic similarity mean?
+A23: It measures meaning-based closeness between words or texts.
+
+Q24: What is contextual embedding?
+A24: Embeddings that change meaning based on context.
+
+Q25: How does BERT capture context?
+A25: Using bidirectional self-attention.
+
+Q26: What is attention score?
+A26: A weight indicating word importance.
+
+Q27: What is masking in language models?
+A27: Hiding tokens during training to predict them.
+
+Q28: What is pretraining?
+A28: Training a model on large unlabeled data.
+
+Q29: Why is pretraining useful?
+A29: It allows models to learn general language patterns.
+
+Q30: What is downstream task?
+A30: A specific task like classification or QA.
+
+Q31: What is sequence labeling?
+A31: Assigning labels to each token in a sequence.
+
+Q32: Why is NER a sequence labeling task?
+A32: Each word receives an entity tag.
+
+Q33: What is BIO tagging scheme?
+A33: A format for marking entity boundaries.
+
+Q34: What is dependency parsing?
+A34: Analyzing grammatical relationships between words.
+
+Q35: What is constituency parsing?
+A35: Representing sentence structure as phrases.
+
+Q36: Why is syntax important in NLP?
+A36: It helps understand sentence structure.
+
+Q37: What is semantics?
+A37: The meaning of language.
+
+Q38: What is pragmatics?
+A38: Meaning based on context and intent.
+
+Q39: What is sentiment polarity?
+A39: Classification of sentiment as positive, negative, or neutral.
+
+Q40: What causes sarcasm detection difficulty?
+A40: Sarcasm contradicts literal meaning.
+
+Q41: What is emotion classification?
+A41: Detecting emotions like joy or anger.
+
+Q42: What is multilabel classification?
+A42: Assigning multiple labels to one input.
+
+Q43: What is imbalance in datasets?
+A43: When some classes dominate others.
+
+Q44: Why is imbalance harmful?
+A44: Models become biased toward majority classes.
+
+Q45: What is data resampling?
+A45: Adjusting class distribution.
+
+Q46: What is oversampling?
+A46: Increasing minority class samples.
+
+Q47: What is undersampling?
+A47: Reducing majority class samples.
+
+Q48: What is cross-validation?
+A48: Evaluating model performance across multiple splits.
+
+Q49: Why is validation set required?
+A49: To tune hyperparameters.
+
+Q50: What is hyperparameter tuning?
+A50: Optimizing model configuration.
+
+Q51: What is grid search?
+A51: Exhaustive hyperparameter search.
+
+Q52: What is random search?
+A52: Randomized hyperparameter selection.
+
+Q53: What is early stopping?
+A53: Stopping training to prevent overfitting.
+
+Q54: What is model generalization?
+A54: Performance on unseen data.
+
+Q55: What is error analysis?
+A55: Studying model mistakes.
+
+Q56: Why is confusion matrix useful?
+A56: It shows detailed classification errors.
+
+Q57: What is false positive?
+A57: Incorrect positive prediction.
+
+Q58: What is false negative?
+A58: Missed positive prediction.
+
+Q59: Why is recall important in QA systems?
+A59: To retrieve all relevant documents.
+
+Q60: What is precision-recall tradeoff?
+A60: Balance between accuracy and coverage.
+
+Q61: What is document retrieval?
+A61: Fetching relevant documents for a query.
+
+Q62: What is keyword-based retrieval?
+A62: Retrieval using exact word matching.
+
+Q63: Why does keyword search fail?
+A63: It ignores semantic meaning.
+
+Q64: What is semantic retrieval?
+A64: Retrieval based on meaning.
+
+Q65: What is vector similarity search?
+A65: Searching vectors based on distance.
+
+Q66: Why use cosine similarity in NLP?
+A66: It measures directional similarity.
+
+Q67: What is Euclidean distance?
+A67: Straight-line distance between vectors.
+
+Q68: Why is normalization applied to embeddings?
+A68: To improve similarity measurement.
+
+Q69: What is approximate nearest neighbor search?
+A69: Fast but approximate similarity search.
+
+Q70: Why is FAISS popular?
+A70: It is efficient and scalable.
+
+Q71: What is indexing in vector databases?
+A71: Organizing vectors for fast search.
+
+Q72: What is flat index?
+A72: Exact but slower similarity search.
+
+Q73: What is HNSW index?
+A73: Graph-based fast retrieval.
+
+Q74: What is chunk overlap?
+A74: Repeating text between chunks.
+
+Q75: Why use overlapping chunks?
+A75: To preserve context.
+
+Q76: What is retrieval latency?
+A76: Time taken to fetch documents.
+
+Q77: Why does chunk size affect RAG?
+A77: It balances context and precision.
+
+Q78: What is grounding in RAG?
+A78: Linking answers to retrieved text.
+
+Q79: What is hallucination risk?
+A79: Generating incorrect facts.
+
+Q80: Why do LLMs hallucinate?
+A80: They predict text, not truth.
+
+Q81: What is prompt grounding?
+A81: Constraining responses using context.
+
+Q82: What is system prompt?
+A82: Instructions controlling model behavior.
+
+Q83: What is user prompt?
+A83: Input query from user.
+
+Q84: What is context injection?
+A84: Adding retrieved text to prompt.
+
+Q85: What is answer synthesis?
+A85: Combining multiple sources into one answer.
+
+Q86: What is citation-aware QA?
+A86: QA that references sources.
+
+Q87: Why is citation important?
+A87: It improves trust and transparency.
+
+Q88: What is conversational memory?
+A88: Retaining past interactions.
+
+Q89: What is session-based chat?
+A89: Conversation limited to one session.
+
+Q90: What is long-term memory in chatbots?
+A90: Persistent user information.
+
+Q91: What is fallback response?
+A91: Response when answer is unknown.
+
+Q92: Why should chatbot say “I don’t know”?
+A92: To avoid hallucination.
+
+Q93: What is intent fallback?
+A93: Handling unknown user intents.
+
+Q94: What is confidence threshold?
+A94: Minimum score to answer.
+
+Q95: What is retrieval score?
+A95: Similarity value of a document.
+
+Q96: What is reranking?
+A96: Reordering retrieved documents.
+
+Q97: What is cross-encoder reranker?
+A97: Model evaluating query-document pairs.
+
+Q98: Why reranking improves QA?
+A98: It selects most relevant context.
+
+Q99: What is latency-quality tradeoff?
+A99: Faster responses may reduce quality.
+
+Q100: What is production NLP system?
+A100: Deployed real-world NLP application.
+
+Q101: What is a closed-book question answering system?
+A101: A closed-book QA system answers questions using only the model’s internal knowledge without external documents.
+
+Q102: What is an open-book question answering system?
+A102: An open-book QA system retrieves information from external sources before answering.
+
+Q103: Why are closed-book QA systems risky?
+A103: They can hallucinate because they are not grounded in external data.
+
+Q104: What role does retrieval play in RAG?
+A104: Retrieval supplies relevant factual context to the language model.
+
+Q105: What happens if retrieval fails in RAG?
+A105: The generated answer may be incomplete or incorrect.
+
+Q106: What is retrieval recall in RAG systems?
+A106: Retrieval recall measures how many relevant documents are successfully retrieved.
+
+Q107: Why is high retrieval recall important?
+A107: Missing relevant documents can lead to wrong answers.
+
+Q108: What is retrieval precision?
+A108: Retrieval precision measures how many retrieved documents are actually relevant.
+
+Q109: How does noisy retrieval affect QA?
+A109: It confuses the generator with irrelevant information.
+
+Q110: What is document grounding?
+A110: Document grounding ties answers directly to retrieved text.
+
+Q111: What is passage-level retrieval?
+A111: Retrieval performed on short text passages instead of full documents.
+
+Q112: Why are passages preferred over full documents?
+A112: They provide focused and relevant context.
+
+Q113: What is dense retrieval?
+A113: Dense retrieval uses embeddings instead of keywords.
+
+Q114: What is sparse retrieval?
+A114: Sparse retrieval relies on term frequency features like TF-IDF.
+
+Q115: What is BM25?
+A115: BM25 is a ranking function used in sparse information retrieval.
+
+Q116: Why is BM25 still used today?
+A116: It is simple, fast, and effective for many tasks.
+
+Q117: What is hybrid retrieval?
+A117: Hybrid retrieval combines sparse and dense methods.
+
+Q118: How does hybrid retrieval improve performance?
+A118: It captures both keyword and semantic matches.
+
+Q119: What is query expansion?
+A119: Query expansion adds related terms to a search query.
+
+Q120: Why is query expansion helpful?
+A120: It improves recall for ambiguous queries.
+
+Q121: What is semantic drift?
+A121: Semantic drift occurs when retrieved content diverges from the query meaning.
+
+Q122: What is embedding drift?
+A122: Embedding drift happens when data distribution changes over time.
+
+Q123: How can embedding drift be handled?
+A123: By retraining or updating embeddings regularly.
+
+Q124: What is domain-specific embedding?
+A124: Embeddings trained on a specific domain’s text.
+
+Q125: Why use domain-specific embeddings?
+A125: They capture specialized terminology more accurately.
+
+Q126: What is context truncation?
+A126: Cutting off text due to model context limits.
+
+Q127: Why is context truncation dangerous?
+A127: Important information may be lost.
+
+Q128: What is sliding window chunking?
+A128: Chunking text with overlapping windows.
+
+Q129: How does sliding window chunking help?
+A129: It preserves continuity between chunks.
+
+Q130: What is embedding normalization?
+A130: Scaling embeddings to a common range.
+
+Q131: Why normalize embeddings?
+A131: To improve similarity comparisons.
+
+Q132: What is cosine normalization?
+A132: Adjusting vectors to unit length.
+
+Q133: What is retrieval confidence score?
+A133: A numerical value indicating retrieval relevance.
+
+Q134: How is retrieval confidence used?
+A134: To decide whether to answer or abstain.
+
+Q135: What is abstention in QA?
+A135: Choosing not to answer due to low confidence.
+
+Q136: Why is abstention important?
+A136: It prevents misleading answers.
+
+Q137: What is answer verification?
+A137: Checking generated answers against sources.
+
+Q138: What is self-consistency in LLMs?
+A138: Generating multiple answers and selecting the most common one.
+
+Q139: What is answer reranking?
+A139: Reordering generated answers based on quality.
+
+Q140: What is faithfulness in QA?
+A140: How accurately answers reflect source documents.
+
+Q141: What is factual consistency?
+A141: Alignment between generated output and facts.
+
+Q142: What causes factual inconsistency?
+A142: Weak grounding or hallucination.
+
+Q143: What is context contamination?
+A143: Mixing unrelated information into prompts.
+
+Q144: How can context contamination be reduced?
+A144: By filtering and reranking retrieved documents.
+
+Q145: What is prompt leakage?
+A145: When system instructions appear in outputs.
+
+Q146: Why is prompt leakage harmful?
+A146: It exposes system behavior and reduces trust.
+
+Q147: What is temperature in text generation?
+A147: A parameter controlling randomness.
+
+Q148: What happens at high temperature?
+A148: Responses become more diverse but less reliable.
+
+Q149: What happens at low temperature?
+A149: Responses become more deterministic.
+
+Q150: Why use low temperature in QA?
+A150: To improve factual accuracy.
+
+Q151: What is top-k sampling?
+A151: Sampling from the top k most likely tokens.
+
+Q152: What is top-p sampling?
+A152: Sampling from tokens whose cumulative probability exceeds p.
+
+Q153: Why control sampling in QA?
+A153: To balance accuracy and fluency.
+
+Q154: What is prompt chaining?
+A154: Using outputs of one prompt as input to another.
+
+Q155: How does prompt chaining help RAG?
+A155: It separates retrieval and reasoning steps.
+
+Q156: What is reasoning hallucination?
+A156: Incorrect logical explanations.
+
+Q157: What is chain-of-thought prompting?
+A157: Encouraging step-by-step reasoning.
+
+Q158: Why hide chain-of-thought in production?
+A158: To reduce verbosity and leakage.
+
+Q159: What is answer post-processing?
+A159: Cleaning and formatting generated output.
+
+Q160: What is citation extraction?
+A160: Identifying source references used in answers.
+
+Q161: What is explainability in QA systems?
+A161: Making answers understandable to users.
+
+Q162: Why is explainability important?
+A162: It builds user trust.
+
+Q163: What is evaluation dataset leakage?
+A163: Training data overlapping with evaluation data.
+
+Q164: Why is dataset leakage problematic?
+A164: It inflates performance scores.
+
+Q165: What is benchmark dataset?
+A165: A standard dataset for model comparison.
+
+Q166: Why are benchmarks limited?
+A166: They may not reflect real-world usage.
+
+Q167: What is domain shift?
+A167: Change in data distribution between training and testing.
+
+Q168: How does domain shift affect QA?
+A168: It reduces model accuracy.
+
+Q169: What is continual learning?
+A169: Updating models with new data over time.
+
+Q170: What is catastrophic forgetting?
+A170: Losing old knowledge when learning new data.
+
+Q171: What is data freshness in RAG?
+A171: How up-to-date retrieved documents are.
+
+Q172: Why is data freshness important?
+A172: Outdated data leads to incorrect answers.
+
+Q173: What is document versioning?
+A173: Tracking changes in documents over time.
+
+Q174: What is retrieval caching?
+A174: Storing frequent retrieval results.
+
+Q175: Why use caching?
+A175: To reduce latency and cost.
+
+Q176: What is query caching?
+A176: Saving results for repeated queries.
+
+Q177: What is load balancing in NLP systems?
+A177: Distributing requests across servers.
+
+Q178: What is scalability in RAG systems?
+A178: Ability to handle increasing data and users.
+
+Q179: What is fault tolerance?
+A179: System’s ability to recover from failure.
+
+Q180: What is graceful degradation?
+A180: Reduced functionality instead of failure.
+
+Q181: What is monitoring in NLP systems?
+A181: Tracking performance and errors.
+
+Q182: What is log analysis?
+A182: Examining system logs for issues.
+
+Q183: What is user feedback loop?
+A183: Using user input to improve models.
+
+Q184: What is human-in-the-loop QA?
+A184: Humans validate or correct answers.
+
+Q185: Why use human-in-the-loop?
+A185: To improve quality and reliability.
+
+Q186: What is ethical risk in QA systems?
+A186: Potential harm due to misinformation.
+
+Q187: What is responsible AI?
+A187: Designing AI systems that are safe and fair.
+
+Q188: What is data privacy concern in chatbots?
+A188: Handling sensitive user data securely.
+
+Q189: What is prompt injection?
+A189: Manipulating prompts to bypass controls.
+
+Q190: How can prompt injection be mitigated?
+A190: Input sanitization and strict prompting.
+
+Q191: What is role-based prompting?
+A191: Assigning roles like system or user to inputs.
+
+Q192: What is sandboxing in AI systems?
+A192: Isolating execution to prevent harm.
+
+Q193: What is QA system robustness?
+A193: Ability to handle unexpected queries.
+
+Q194: What is adversarial input?
+A194: Input designed to break the system.
+
+Q195: What is stress testing in NLP?
+A195: Testing under extreme conditions.
+
+Q196: What is latency SLA?
+A196: Guaranteed response time.
+
+Q197: Why is latency critical in chatbots?
+A197: Slow responses harm user experience.
+
+Q198: What is throughput?
+A198: Number of requests handled per second.
+
+Q199: What is cost-performance tradeoff?
+A199: Balancing accuracy with resource usage.
+
+Q200: What defines a high-quality QA chatbot?
+A200: Accurate, grounded, fast, and reliable responses.
+
+Q201: What is a retrieval pipeline in RAG?
+A201: A retrieval pipeline is the sequence of steps used to fetch relevant documents for a query.
+
+Q202: What is document ingestion?
+A202: Document ingestion is the process of loading and preparing data for retrieval.
+
+Q203: Why is document cleaning required before ingestion?
+A203: To remove noise that degrades embedding quality.
+
+Q204: What is metadata in document retrieval?
+A204: Metadata provides additional information like source or timestamp.
+
+Q205: How can metadata improve retrieval?
+A205: It enables filtering and contextual relevance.
+
+Q206: What is document filtering?
+A206: Selecting documents based on constraints like date or topic.
+
+Q207: What is time-aware retrieval?
+A207: Retrieval that prioritizes recent documents.
+
+Q208: Why is time-awareness important?
+A208: Knowledge can become outdated.
+
+Q209: What is query intent classification?
+A209: Identifying the purpose behind a user query.
+
+Q210: How does intent classification help QA?
+A210: It selects the correct retrieval or response strategy.
+
+Q211: What is conversational query rewriting?
+A211: Rewriting follow-up questions into standalone queries.
+
+Q212: Why is query rewriting needed?
+A212: Conversational queries often lack context.
+
+Q213: What is coreference resolution?
+A213: Resolving references like pronouns to entities.
+
+Q214: How does coreference resolution help QA?
+A214: It improves understanding of ambiguous queries.
+
+Q215: What is document ranking?
+A215: Ordering retrieved documents by relevance.
+
+Q216: What is score aggregation?
+A216: Combining multiple relevance scores.
+
+Q217: What is lexical overlap?
+A217: Shared words between query and document.
+
+Q218: Why is lexical overlap insufficient?
+A218: It ignores meaning and paraphrases.
+
+Q219: What is semantic overlap?
+A219: Meaning-based similarity.
+
+Q220: What is embedding space?
+A220: The vector space where text representations exist.
+
+Q221: What is vector quantization?
+A221: Compressing vectors to save memory.
+
+Q222: Why use vector compression?
+A222: To scale retrieval systems.
+
+Q223: What is approximate recall?
+A223: Retrieval accuracy sacrificed for speed.
+
+Q224: What is recall@k?
+A224: Probability that a relevant document appears in top-k results.
+
+Q225: What is precision@k?
+A225: Fraction of relevant documents in top-k results.
+
+Q226: Why evaluate retrieval separately from generation?
+A226: To diagnose pipeline failures.
+
+Q227: What is retriever-generator mismatch?
+A227: When retrieved context does not support generation.
+
+Q228: What is answer span?
+A228: The text portion containing the answer.
+
+Q229: What is extractive QA?
+A229: QA that extracts answers directly from text.
+
+Q230: What is generative QA?
+A230: QA that synthesizes new answers.
+
+Q231: What is hybrid QA?
+A231: Combining extractive and generative methods.
+
+Q232: What is context saturation?
+A232: Too much context overwhelms the model.
+
+Q233: Why limit context size?
+A233: To maintain relevance and reduce noise.
+
+Q234: What is relevance filtering?
+A234: Removing weakly related context.
+
+Q235: What is score thresholding?
+A235: Discarding documents below a relevance score.
+
+Q236: What is retrieval failure cascade?
+A236: Downstream errors caused by poor retrieval.
+
+Q237: What is grounding confidence?
+A237: Measure of how well an answer is supported.
+
+Q238: What is answer attribution?
+A238: Linking answers to specific sources.
+
+Q239: Why is attribution critical in RAG?
+A239: It improves transparency and trust.
+
+Q240: What is hallucination detection?
+A240: Identifying unsupported generated content.
+
+Q241: What is contradiction detection?
+A241: Identifying conflicting information.
+
+Q242: How can contradiction detection help QA?
+A242: It flags unreliable answers.
+
+Q243: What is entailment in NLP?
+A243: Determining if one statement implies another.
+
+Q244: What is NLI?
+A244: Natural Language Inference.
+
+Q245: How is NLI used in QA evaluation?
+A245: To verify answer correctness.
+
+Q246: What is calibration in language models?
+A246: Aligning confidence with accuracy.
+
+Q247: What is overconfidence in QA systems?
+A247: High confidence on incorrect answers.
+
+Q248: Why is overconfidence dangerous?
+A248: Users may trust wrong information.
+
+Q249: What is uncertainty estimation?
+A249: Measuring confidence of predictions.
+
+Q250: What is entropy in prediction?
+A250: Measure of uncertainty in output probabilities.
+
+Q251: What is log probability scoring?
+A251: Using likelihood to assess answer quality.
+
+Q252: What is ensemble QA?
+A252: Using multiple models to generate answers.
+
+Q253: Why use ensembles?
+A253: They improve robustness.
+
+Q254: What is voting-based answer selection?
+A254: Choosing the most frequent answer.
+
+Q255: What is diversity in QA outputs?
+A255: Variation in generated responses.
+
+Q256: Why control diversity?
+A256: To balance creativity and accuracy.
+
+Q257: What is knowledge cutoff?
+A257: The last date a model was trained on.
+
+Q258: Why does knowledge cutoff matter?
+A258: Models may lack recent information.
+
+Q259: How does RAG address knowledge cutoff?
+A259: By retrieving up-to-date documents.
+
+Q260: What is document refresh strategy?
+A260: Updating the retrieval corpus regularly.
+
+Q261: What is indexing latency?
+A261: Time taken to add documents to index.
+
+Q262: What is incremental indexing?
+A262: Adding new documents without rebuilding index.
+
+Q263: Why is incremental indexing important?
+A263: It supports continuous updates.
+
+Q264: What is shard-based indexing?
+A264: Splitting index across multiple nodes.
+
+Q265: What is horizontal scaling?
+A265: Adding more machines to handle load.
+
+Q266: What is vertical scaling?
+A266: Increasing machine resources.
+
+Q267: What is load shedding?
+A267: Dropping requests during overload.
+
+Q268: Why use load shedding?
+A268: To maintain system stability.
+
+Q269: What is backpressure?
+A269: Slowing input to prevent overload.
+
+Q270: What is graceful timeout?
+A270: Ending requests cleanly when delayed.
+
+Q271: What is retry strategy?
+A271: Reattempting failed operations.
+
+Q272: Why are retries risky?
+A272: They can amplify load.
+
+Q273: What is circuit breaker pattern?
+A273: Preventing repeated failures.
+
+Q274: What is observability in QA systems?
+A274: Ability to inspect system behavior.
+
+Q275: What are key QA metrics in production?
+A275: Accuracy, latency, and user satisfaction.
+
+Q276: What is user satisfaction metric?
+A276: Feedback-based quality measurement.
+
+Q277: What is thumbs-up feedback?
+A277: Simple user approval signal.
+
+Q278: What is implicit feedback?
+A278: User behavior-based signals.
+
+Q279: What is abandonment rate?
+A279: Percentage of users leaving without resolution.
+
+Q280: What does high abandonment indicate?
+A280: Poor answer quality or UX.
+
+Q281: What is conversational turn?
+A281: One exchange between user and system.
+
+Q282: What is multi-turn QA?
+A282: QA across multiple dialogue turns.
+
+Q283: Why is context tracking hard?
+A283: Long conversations cause drift.
+
+Q284: What is context window overflow?
+A284: Exceeding model input limits.
+
+Q285: What is memory summarization?
+A285: Compressing past dialogue into summaries.
+
+Q286: Why summarize memory?
+A286: To preserve key context efficiently.
+
+Q287: What is episodic memory in chatbots?
+A287: Short-term conversational memory.
+
+Q288: What is semantic memory?
+A288: Long-term stored knowledge.
+
+Q289: What is personalization in QA?
+A289: Tailoring responses to users.
+
+Q290: What is cold-start problem?
+A290: Lack of user data initially.
+
+Q291: What is privacy-aware personalization?
+A291: Customization without exposing personal data.
+
+Q292: What is data minimization?
+A292: Collecting only necessary data.
+
+Q293: What is anonymization?
+A293: Removing identifiable information.
+
+Q294: What is PII in NLP systems?
+A294: Personally identifiable information.
+
+Q295: Why must PII be handled carefully?
+A295: To protect user privacy.
+
+Q296: What is redaction?
+A296: Removing sensitive content.
+
+Q297: What is content moderation?
+A297: Filtering harmful or unsafe outputs.
+
+Q298: What is safety alignment?
+A298: Ensuring models behave responsibly.
+
+Q299: What is policy-driven QA?
+A299: QA constrained by predefined rules.
+
+Q300: What defines an enterprise QA system?
+A300: Secure, scalable, and auditable QA.
+
+Q301: What is audit logging?
+A301: Recording system actions for review.
+
+Q302: Why are audit logs important?
+A302: For compliance and debugging.
+
+Q303: What is compliance requirement?
+A303: Legal or regulatory obligation.
+
+Q304: What is explainable retrieval?
+A304: Showing why documents were retrieved.
+
+Q305: What is ranking explanation?
+A305: Justifying document order.
+
+Q306: What is black-box model?
+A306: Model with opaque decision-making.
+
+Q307: Why are black-box models risky?
+A307: Lack of transparency.
+
+Q308: What is white-box model?
+A308: Interpretable decision-making model.
+
+Q309: What is hybrid transparency?
+A309: Partial interpretability in complex systems.
+
+Q310: What is QA system benchmarking?
+A310: Comparing systems on standard tasks.
+
+Q311: What is stress scenario testing?
+A311: Testing extreme usage cases.
+
+Q312: What is edge-case query?
+A312: Rare or unusual user input.
+
+Q313: Why test edge cases?
+A313: To ensure robustness.
+
+Q314: What is adversarial QA testing?
+A314: Deliberate attempts to break the system.
+
+Q315: What is jailbreak attempt?
+A315: Trying to bypass safety controls.
+
+Q316: How to mitigate jailbreaks?
+A316: Strong prompt constraints and filtering.
+
+Q317: What is policy enforcement layer?
+A317: Component enforcing safety rules.
+
+Q318: What is response sanitization?
+A318: Cleaning unsafe outputs.
+
+Q319: What is safe completion?
+A319: Output that adheres to policies.
+
+Q320: What is fallback policy?
+A320: Safe response when uncertain.
+
+Q321: What is answer refusal?
+A321: Declining to answer unsafe questions.
+
+Q322: Why is refusal sometimes correct?
+A322: To prevent harm.
+
+Q323: What is alignment training?
+A323: Training models to follow human values.
+
+Q324: What is reward modeling?
+A324: Learning preferences from feedback.
+
+Q325: What is RLHF?
+A325: Reinforcement Learning from Human Feedback.
+
+Q326: How does RLHF improve QA?
+A326: It aligns answers with human expectations.
+
+Q327: What is preference dataset?
+A327: Data showing preferred responses.
+
+Q328: What is response ranking data?
+A328: Ranked outputs for training.
+
+Q329: What is hallucination penalty?
+A329: Penalizing unsupported answers.
+
+Q330: What is grounding reward?
+A330: Rewarding fact-based responses.
+
+Q331: What is system prompt leakage?
+A331: Exposure of internal instructions.
+
+Q332: Why prevent system prompt leakage?
+A332: It weakens system security.
+
+Q333: What is instruction hierarchy?
+A333: Priority ordering of prompts.
+
+Q334: What is role separation?
+A334: Distinguishing system, user, and context roles.
+
+Q335: What is QA orchestration?
+A335: Coordinating multiple components.
+
+Q336: What is pipeline orchestration?
+A336: Managing step execution order.
+
+Q337: What is async retrieval?
+A337: Non-blocking document retrieval.
+
+Q338: Why use async retrieval?
+A338: To reduce latency.
+
+Q339: What is parallel retrieval?
+A339: Retrieving from multiple sources simultaneously.
+
+Q340: What is multi-source RAG?
+A340: RAG using multiple data repositories.
+
+Q341: What is source prioritization?
+A341: Ranking sources by trust.
+
+Q342: What is trust score?
+A342: Reliability rating of a source.
+
+Q343: What is provenance tracking?
+A343: Tracking data origin.
+
+Q344: Why is provenance important?
+A344: It ensures accountability.
+
+Q345: What is citation formatting?
+A345: Structuring source references.
+
+Q346: What is answer grounding score?
+A346: Measure of source alignment.
+
+Q347: What is QA confidence score?
+A347: Overall reliability estimate.
+
+Q348: What is answer length control?
+A348: Regulating verbosity.
+
+Q349: Why control answer length?
+A349: To match user expectations.
+
+Q350: What is verbosity penalty?
+A350: Penalizing overly long responses.
+
+Q351: What is minimal sufficient answer?
+A351: Shortest correct response.
+
+Q352: What is elaborative answer?
+A352: Detailed explanatory response.
+
+Q353: When prefer minimal answers?
+A353: For factual queries.
+
+Q354: When prefer elaboration?
+A354: For educational queries.
+
+Q355: What is user intent disambiguation?
+A355: Clarifying ambiguous queries.
+
+Q356: What is clarification question?
+A356: Asking user for more detail.
+
+Q357: Why avoid excessive clarification?
+A357: It disrupts user experience.
+
+Q358: What is default assumption?
+A358: Assumed intent when unclear.
+
+Q359: What is risk of wrong assumption?
+A359: Incorrect answers.
+
+Q360: What is conversational grounding?
+A360: Using dialogue history for context.
+
+Q361: What is context drift over turns?
+A361: Gradual loss of topic focus.
+
+Q362: How prevent context drift?
+A362: Periodic summarization.
+
+Q363: What is memory pruning?
+A363: Removing irrelevant past context.
+
+Q364: What is QA session timeout?
+A364: Ending inactive conversations.
+
+Q365: What is user re-engagement?
+A365: Encouraging continued interaction.
+
+Q366: What is proactive suggestion?
+A366: Offering helpful follow-ups.
+
+Q367: What is suggestion overreach?
+A367: Offering irrelevant suggestions.
+
+Q368: Why avoid overreach?
+A368: It annoys users.
+
+Q369: What is adaptive QA?
+A369: Adjusting answers dynamically.
+
+Q370: What is personalization drift?
+A370: Incorrect assumptions about user preferences.
+
+Q371: How mitigate personalization drift?
+A371: Resetting or confirming preferences.
+
+Q372: What is QA system lifecycle?
+A372: Design, deploy, monitor, improve.
+
+Q373: What is continuous evaluation?
+A373: Ongoing performance monitoring.
+
+Q374: What is retraining trigger?
+A374: Condition requiring model update.
+
+Q375: What is data quality monitoring?
+A375: Tracking corpus integrity.
+
+Q376: What is corpus contamination?
+A376: Inserting low-quality data.
+
+Q377: Why is contamination harmful?
+A377: It degrades answer quality.
+
+Q378: What is automated QA testing?
+A378: Programmatic quality checks.
+
+Q379: What is golden dataset?
+A379: High-quality reference QA set.
+
+Q380: What is regression testing in QA?
+A380: Ensuring updates don’t break performance.
+
+Q381: What is versioned deployment?
+A381: Tracking system versions.
+
+Q382: What is rollback strategy?
+A382: Reverting faulty updates.
+
+Q383: What is canary deployment?
+A383: Gradual rollout to subset of users.
+
+Q384: Why use canary deployment?
+A384: To catch issues early.
+
+Q385: What is shadow testing?
+A385: Testing silently without affecting users.
+
+Q386: What is A/B testing in QA?
+A386: Comparing two system variants.
+
+Q387: What is experiment metric?
+A387: Measurement used to compare variants.
+
+Q388: What is statistical significance?
+A388: Confidence that results are not random.
+
+Q389: What is QA system maturity?
+A389: Level of robustness and reliability.
+
+Q390: What is production readiness?
+A390: Suitability for real-world use.
+
+Q391: What is failure recovery plan?
+A391: Strategy for system outages.
+
+Q392: What is SLA violation?
+A392: Failure to meet service guarantees.
+
+Q393: What is error budget?
+A393: Allowed failure margin.
+
+Q394: Why define error budget?
+A394: To balance reliability and innovation.
+
+Q395: What is QA system governance?
+A395: Oversight and policy management.
+
+Q396: What is documentation importance?
+A396: Enables maintenance and onboarding.
+
+Q397: What is runbook?
+A397: Operational troubleshooting guide.
+
+Q398: What is incident response?
+A398: Handling system failures.
+
+Q399: What is postmortem analysis?
+A399: Reviewing incidents to improve systems.
+
+Q400: What defines a mature RAG QA system?
+A400: Accurate retrieval, grounded answers, safety, and scalability.

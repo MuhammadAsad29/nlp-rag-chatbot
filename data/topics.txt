@@ -1,0 +1,65 @@
+NLP preprocessing
+Tokenization techniques
+Stemming vs lemmatization
+Part-of-speech tagging
+Named entity recognition
+Text classification
+Sentiment analysis
+Emotion detection
+Topic modeling
+Word embeddings
+TF-IDF
+Word2Vec
+GloVe embeddings
+FastText
+Transformers
+Attention mechanism
+BERT architecture
+GPT architecture
+Sequence-to-sequence models
+Text summarization
+Extractive summarization
+Abstractive summarization
+Question answering
+Open-domain QA
+Closed-domain QA
+Chatbot architectures
+Rule-based chatbots
+Retrieval-based chatbots
+Generative chatbots
+Hybrid chatbots
+Conversational AI
+Dialogue systems
+Intent detection
+Slot filling
+RAG architecture
+Vector databases
+FAISS indexing
+Semantic search
+Dense retrieval
+Sparse retrieval
+Hybrid retrieval
+Chunking strategies
+Embedding similarity
+Cosine similarity
+Evaluation metrics
+Precision and recall
+F1-score
+BLEU score
+ROUGE score
+Hallucination in LLMs
+Grounding techniques
+Prompt engineering
+Few-shot learning
+Zero-shot learning
+Model fine-tuning
+Transfer learning
+RLHF
+Ethical NLP
+Bias in NLP
+Explainable AI
+Privacy in chatbots
+Production NLP systems
+Latency optimization
+Scalability
+Monitoring NLP systems
