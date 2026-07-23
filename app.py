@@ -1,5 +1,9 @@
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
 import gradio as gr
 from rag.chatbot import RAGChatbot
+
 
 def load_and_chunk_documents(path):
     with open(path, "r", encoding="utf-8") as f:
