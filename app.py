@@ -2,6 +2,12 @@ import spaces
 import gradio as gr
 from rag.chatbot import RAGChatbot
 
+# Required: HF ZeroGPU requires at least one @spaces.GPU function at startup
+@spaces.GPU(duration=1)
+def _gpu_warmup():
+    pass
+
+
 def load_and_chunk_documents(path):
     with open(path, "r", encoding="utf-8") as f:
         text = f.read()
