@@ -7,7 +7,6 @@ from rag.chatbot import RAGChatbot
 def _gpu_warmup():
     pass
 
-
 def load_and_chunk_documents(path):
     with open(path, "r", encoding="utf-8") as f:
         text = f.read()
